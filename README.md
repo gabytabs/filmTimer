@@ -1,25 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple application made to help me develop film.  It esentially uses times from http://www.digitaltruth.com/devchart.php by using nokogiri to scrape the times off that and then provides a good user experience. 
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
+* Ruby version: 2.2.3p173
 
 * Database creation
+```ruby 
+rake db:setup
+```
 
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+```ruby 
+rake db:migrate
+rake db:seed
+```
 * ...
 # filmTimer
