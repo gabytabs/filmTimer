@@ -1,0 +1,27 @@
+<%# app/views/students/_list.html.erb %>
+<div id="filterrific_results">
+
+  <div>
+    <%= page_entries_info films # provided by will_paginate %>
+  </div>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Developer</th>
+      <th>ISO</th>
+      <th>Time</th>
+    </tr>
+    <% films.each do |film| %>
+        <tr>
+          <td><%= film.name %></td>
+          <td><%= film.developer %></td>
+          <td><%= film.iso %></td>
+          <td><%= film.time %></td>
+          <td><%= student.decorated_created_at %></td>
+        </tr>
+    <% end %>
+  </table>
+</div>
+
+<%= will_paginate films # provided by will_paginate %>

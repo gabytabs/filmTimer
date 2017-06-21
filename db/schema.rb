@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20170621015450) do
     t.string   "name"
     t.string   "developer"
     t.string   "dilution"
-    t.string   "ISO"
+    t.string   "iso"
     t.integer   "time"
     t.string   "temp"
     t.datetime "created_at", null: false
