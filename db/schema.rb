@@ -17,11 +17,8 @@ ActiveRecord::Schema.define(version: 20170621015450) do
     t.string   "developer"
     t.string   "dilution"
     t.string   "ISO"
-    t.string   "film35mm"
-    t.string   "film120"
-    t.string   "sheet"
+    t.integer   "time"
     t.string   "temp"
-    t.string   "notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
