@@ -2,11 +2,10 @@
 
 This is a simple application made to help me develop film.  It esentially uses times from http://www.digitaltruth.com/devchart.php by using nokogiri to scrape the times off that and then provides a good user experience. 
 
-Things you may want to cover:
 
-* Ruby version: 2.2.3p173
+Ruby version: 2.2.3p173
 
-* Database creation
+### Database creation
 ```ruby 
 rake db:setup
 ```
