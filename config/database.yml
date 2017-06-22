@@ -17,12 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: filmTimer_test_2_development
-  pool: 5
-  username: gagandeepsawhney
-  password:
-  timeout: 5000
-  host: localhost
+  database: filmtimer_development
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -31,7 +26,6 @@ development:
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -48,8 +42,4 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: filmTimer_test_2
-  pool: 5
-  username: gagandeepsawhney
-  password:
-  timeout: 5000
+  database: filmtimer_test
