@@ -32,11 +32,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-#### CUSTOM GEMS
+#### CUSTOM GEMS ####
+# General
+gem 'foreman'
 # Use Nokogiri and mechanize for webscraping
 gem 'nokogiri'
 gem 'mechanize'
-#Debugging tools
+# Debugging tools
 gem 'pry-rails'
 gem 'pry-byebug'
-
+# Webpacker Gem
+gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
